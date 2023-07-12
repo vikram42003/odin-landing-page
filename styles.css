@@ -18,6 +18,9 @@ header, .container-top, footer {
     background-color: #1F2937;
 }
 
+
+/* HEADER CSS */
+
 header {
     display: flex;
     align-items: center;
@@ -45,6 +48,28 @@ a {
 
 a:hover {
     color: #ff00ff;
+}
+
+
+/* TOP CONTAINERS CSS */
+.container-top {
+    display: flex;
+    padding: 40px 10vw 60px;
+    gap: 3vw;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.big-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img {
+    width: 30vw;
+    min-width: 300px;
 }
 
 .container-lowermid {
