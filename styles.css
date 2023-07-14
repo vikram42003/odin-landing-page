@@ -91,7 +91,6 @@ img {
 
 /* UPPER MID CONTAINER CSS */
 
-
 .container-uppermid {
     text-align: center;
     padding: 10vh 12vw;
@@ -116,6 +115,30 @@ h2 {
     border-radius: 15px;
 }
 
+
+/* LOWERMID CONTAINER CSS */
+
 .container-lowermid {
     background-color: #E5E7EB;
+    text-align: right;
+    padding: 10vh 15vw;
+    font-weight: 700;
+    font-size: 22px;
+
 }
+
+.container-lowermid > :first-child {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container-lowermid > :last-child {
+    padding-right: 50px;
+}
+
+/* CONTAINER BOTTOM CSS */
