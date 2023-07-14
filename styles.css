@@ -142,3 +142,26 @@ h2 {
 }
 
 /* CONTAINER BOTTOM CSS */
+
+.container-bottom {
+    margin: 10vh 10vw;
+    padding: 20px 60px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.container-bottom spam {
+    font-weight: 600;
+}
+
+.container-bottom button {
+    min-width: 100px;
+    border: 2px solid #F9FAF8 ;
+    padding: 10px 20px;
+}
+
+/* FOOTER */
