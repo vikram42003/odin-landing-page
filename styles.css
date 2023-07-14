@@ -4,7 +4,9 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    /* For some reason making the width any larger than 98.9vw
+    makes the website horizontally scrollable which I dont prefer*/
+    width: 98.9vw;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -63,7 +65,7 @@ a:active {
     gap: 3vw;
     align-items: center;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .big-text {
@@ -82,6 +84,7 @@ button {
     padding: 0.5em 1.5em;
     font-weight: 700;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
@@ -107,6 +110,7 @@ img {
 .container-uppermid {
     text-align: center;
     padding: 10vh 12vw;
+    font-size: 20px;
 }
 
 h2 {
@@ -118,7 +122,7 @@ h2 {
 
 .illustration-container {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .illustration-container img {
@@ -126,6 +130,10 @@ h2 {
     min-width: 0;
     border: 5px solid #3882f6;
     border-radius: 15px;
+}
+
+.illustration-container p {
+    margin-top: 8px;
 }
 
 
@@ -157,14 +165,15 @@ h2 {
 /* CONTAINER BOTTOM CSS */
 
 .container-bottom {
-    margin: 10vh 10vw;
-    padding: 20px 60px;
+    margin: 12.5vh 10vw;
+    padding: 25px 80px;
     background-color: #3882f6;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+    font-size: 22px;
 }
 
 .container-bottom spam {
